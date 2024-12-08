@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.TopMenu{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.TopMenu img{
+    height: 110px;
+    margin-top: 26%;
+    margin-left: 65%;
+}
+
+.TopMenu img:hover{
+    height: 122px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 17%;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.container a:hover{
+    color: greenyellow;
+    font-size: 26px;
+}
+
+.TopMenu2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+
+.TopMenu2 img{
+    height: 100px;
+    width: 190px;
+    margin-left: 190px;
+}
+
+.TopMenu2 img:hover{
+    height: 115px;
+    width: 200px;
+}
+
+.container2{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container2 a:hover{
+    color: greenyellow;
+    font-size: 28px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 17px;
+    color: black;
+}
+
+main a:hover{
+    transform: scale(1.2);
+    transition: transform 0.6s ease;
+    box-shadow: 0 6px 9px rgba(0,0,0,0.6);
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+    background-color: rgb(195, 222, 195);
+    height: 310px;
+    gap: 45px;
+}
+
+.container3 p{
+    font-size: 25px;
+}
+
+.container_img{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75%;
+    background-color: rgb(195, 222, 195);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.container_img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container_img img{
+    height: 100%;
+}
+
+.container_img .AdjustedImage{
+    width: 50%;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+.container_img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    background-color: rgb(195, 222, 195);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.container_img2 img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container4 p{
+    font-size: 21px;
+}
+
+.container4 .Subtitle{
+    font-size: 35px;
+}
+
+.SpecialImage{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.9);
+}
+
+.Part1{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.Part1 img{
+    height: 90px;
+    width: 75%;
+    margin-left: 26%;
+    margin-top: 30px;
+}
+
+.Part1 *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 30px;
+}
+
+.container5 p{
+    font-size: 25px;
+}
+
+.container5 a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
+
+.container5 a:hover{
+    color: black;
+}
+
+.Part2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 90%;
+    border-top: 2px solid rgb(212, 210, 210);
+    margin-left: 5%;
+}
+
+.Logos{
+    margin-top: 30px;
+}
+
+.Logos img{
+    margin-left: 60px;
+}
+
+.Policies{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.Policies a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Part2 p{
+    margin-top: 80px;
+    margin-bottom: 90px;
+    margin-left: 60px;
+    color: black;
+}
