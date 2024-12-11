@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';"> <!--Adicionando a política de segurança CSP para usar as ferramentas de desenvolvedores de forma segura-->
+    <link rel="stylesheet" href="style.css">
+    <title>Editor de Arquivos</title>
+</head>
+<body>
+
+
+    <main>
+        <h1>App Editor de Arquivos Para Desktop Gratuito</h1>
+
+        <a href="index2.html">Clique aqui se tiver dúvidas de como usar o App</a>
+        
+        <!--Campo de texto para editar o conteúdo do arquivo-->
+        <textarea id="editor" cols="100" rows="80"></textarea>
+        
+        <!--Botões para criar ,abrir e salvar arquivos-->
+        <div class="container">
+            <button id="openFile">Abrir Arquivo</button>
+            <button id="SaveFile">Salvar Arquivo</button>
+        </div>
+    </main>
+        
+        
+
+    <!--Importa o arquivo que gerencia os eventos da interface-->
+    <script src="renderer.js"></script>
+</body>
+</html>
