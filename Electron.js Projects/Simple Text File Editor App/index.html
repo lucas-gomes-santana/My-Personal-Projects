@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';"> <!--Adicionando a política de segurança CSP para usar as ferramentas de desenvolvedores de forma segura-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';"> <!--Adding CSP security policy for safe usage of developer tools-->
     <link rel="stylesheet" href="style.css">
-    <title>Editor de Arquivos</title>
+    <title>File Editor</title>
 </head>
 <body>
 
-
     <main>
-        <h1>App Editor de Arquivos Para Desktop Gratuito</h1>
+        <h1>Free Desktop File Editor App</h1>
 
-        <a href="index2.html">Clique aqui se tiver dúvidas de como usar o App</a>
+        <a href="index2.html">Click here if you have questions about using the app</a>
         
-        <!--Campo de texto para editar o conteúdo do arquivo-->
+        <!--Text area for editing the file content-->
         <textarea id="editor" cols="100" rows="80"></textarea>
         
-        <!--Botões para criar ,abrir e salvar arquivos-->
+        <!--Buttons to create, open, and save files-->
         <div class="container">
-            <button id="openFile">Abrir Arquivo</button>
-            <button id="SaveFile">Salvar Arquivo</button>
+            <button id="openFile">Open File</button>
+            <button id="SaveFile">Save File</button>
         </div>
     </main>
         
-        
-
-    <!--Importa o arquivo que gerencia os eventos da interface-->
+    <!--Imports the file that handles the interface events-->
     <script src="renderer.js"></script>
 </body>
 </html>
