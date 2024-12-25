@@ -5,5 +5,5 @@ if you doesn't visit my main repository,check him now clicking here for more inf
 
 I am open to accepting internships or home office jobs. Contact me using the methods below.
 
-My main email address: ls7128387@gmail.com.
+My main email address: ls7128387@gmail.com.     
 My Phone Number: +55 (75) 99245-9695.
