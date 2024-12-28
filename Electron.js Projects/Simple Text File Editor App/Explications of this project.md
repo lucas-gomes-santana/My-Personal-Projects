@@ -11,9 +11,11 @@ INFORMATION ABOUT MY PROJECT!
 5 - If you don’t know how to program or have never used Electron.js, follow the instructions below to install Electron.js in a folder on your computer so you can use this app:
 
 INSTRUCTIONS: Run these commands in sequence in your computer terminal:
-1 - mkdir ProjectFolder (You can choose another name for the folder where you want to host Electron).
-2 - cd ProjectFolder (Or the alternative name you chose).
-3 - npm install electron --save-dev.
-4 - Start the app using the following command in your code editor terminal: npm start.
 
-5 - If you’re reading this and you’re a professional developer working remotely, please recommend me :<,i can speak english.
+1 - mkdir ProjectFolder (You can choose another name for the folder where you want to host Electron).
+
+2 - cd ProjectFolder (Or the alternative name you chose).
+
+3 - npm install electron --save-dev.
+
+4 - Start the app using the following command in your code editor terminal: npm start.
